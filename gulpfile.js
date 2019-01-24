@@ -9,6 +9,7 @@ const browserSync = require('browser-sync');
 function replaceRoutes() {
     return src(['src/**/*', '!./src/scss/**/*'])
   .pipe(replace('#/','/'))
+  .pipe(replace('include("\/','include("'))
   .pipe(dest('./dist/'))
   .pipe(browserSync.stream());
 }
