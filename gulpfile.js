@@ -8,10 +8,16 @@ const browserSync = require('browser-sync');
 
 function replaceRoutes() {
     return src(['src/**/*', '!./src/scss/**/*'])
-  .pipe(replace('#/','/'))
-  .pipe(replace('include("\/','include("'))
-  .pipe(dest('./dist/'))
-  .pipe(browserSync.stream());
+    .pipe(replace('#/','/'))
+    .pipe(replace('include("\/','include("'))
+    .pipe(dest('./dist/'))
+    .pipe(browserSync.stream());
+}
+
+function replaceRoutesCss() {
+    return src('./dist/css/**/*')
+    .pipe(replace('#/','/'))
+    .pipe(dest('./dist/css/'))
 }
 
 function compileSass() {
@@ -41,6 +47,6 @@ function reload(cb) {
     cb();
   }
 
-watch('src/**/*', series(replaceRoutes,compileSass, cleanFolders, reload));
+watch('src/**/*', series(replaceRoutes,compileSass, cleanFolders, replaceRoutesCss, reload));
 
-exports.default = series(replaceRoutes,compileSass, cleanFolders, phpServer);
+exports.default = series(replaceRoutes,compileSass, cleanFolders, replaceRoutesCss, phpServer);
