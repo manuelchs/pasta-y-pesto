@@ -1,0 +1,12 @@
+.hero-home {
+    background-image: url('#/images/inicio-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .cursiva {
+        margin-top: -18px;
+    }
+    button {
+        margin: 3rem auto 0;
+    }
+}

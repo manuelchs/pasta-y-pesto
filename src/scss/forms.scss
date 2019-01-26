@@ -1,0 +1,21 @@
+.main-button {
+    background-color: transparent;
+    border: 1px solid;
+    font-family: PoppinsMedium;
+    padding: 0.25rem;
+    width: 100%;
+    max-width: 245px;
+    text-transform: uppercase;
+    transition: all .3s;
+    cursor: pointer;
+    display: block;
+
+    &.white {
+        color: white;
+        border-color: white;
+        &:hover {
+            background-color: white;
+            color: $dark1;
+        }
+    }
+}
