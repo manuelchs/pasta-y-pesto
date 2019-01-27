@@ -7,6 +7,7 @@ nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
     }
 
     .navbar-icon {
@@ -64,7 +65,7 @@ nav {
                 transform: rotate(45deg) translate(4px,4px)
             }
             &:after {
-                transform: rotate(-45deg) translate(4px,-4px);
+                transform: rotate(-45deg) translate(4px,-5px);
             }
         }
     }
@@ -75,6 +76,7 @@ nav {
         align-items: center;
         margin-right: auto;
         margin-left: 5rem;
+        animation: fromLeft .3s;
 
         &.no-show {
             display: none;
@@ -97,6 +99,12 @@ nav {
     }
 
     .logo {
+        width: calc( 100% - 60px);
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all .7s;
         &.no-show {
             display: none;
         }
@@ -104,5 +112,20 @@ nav {
             height: 80px;
             width: auto;
         }
+    }
+}
+
+.non-opacity {
+    opacity: 0;
+}
+
+@keyframes fromLeft {
+    from {
+        margin-left: -30px;
+        opacity: 0;
+    }
+    to {
+        margin-left: 5rem;
+        opacity: 1;
     }
 }
