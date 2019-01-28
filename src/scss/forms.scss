@@ -1,6 +1,6 @@
 .main-button {
     background-color: transparent;
-    border: 1px solid;
+    border: 2px solid;
     font-family: PoppinsMedium;
     padding: 0.25rem;
     width: 100%;
@@ -16,6 +16,15 @@
         &:hover {
             background-color: white;
             color: $dark1;
+        }
+    }
+
+    &.dark {
+        color: $dark2;
+        border-color: $dark2;
+        &:hover {
+            background-color: $dark2;
+            color: white;
         }
     }
 }

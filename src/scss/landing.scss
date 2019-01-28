@@ -10,3 +10,57 @@
         margin: 3rem auto 0;
     }
 }
+
+.about-landing {
+    .main-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & > div {
+            width: 50%
+        }
+
+        .info-about {
+
+            .title-wrapper {
+                position: relative;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-end;
+                margin-bottom: 4rem;
+                h2 {
+                    font-family: Questrial;
+                    text-transform: uppercase;
+                    font-size: 3rem;
+                }
+                .cursiva {
+                    color: $yellow2;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    font-size: 6rem;
+                }
+                img {
+                    width: 120px;
+                    height: auto;
+                    margin-bottom: 10px;
+                    margin-left: 1rem;
+                }
+            }
+            button {
+                margin-top: 2rem;
+            }
+        }
+        .img-four {
+            .row {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    width: 50%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
