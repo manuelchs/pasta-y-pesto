@@ -54,10 +54,10 @@
         .img-four {
             .row {
                 display: flex;
-                justify-content: center;
+                justify-content: flex-end;
                 align-items: center;
                 img {
-                    width: 50%;
+                    width: 40%;
                     height: auto;
                 }
             }
