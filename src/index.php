@@ -14,7 +14,7 @@
             <button class="main-button white">¡yo quiero!</button>
         </div>
     </section>
-    <section class="about-landing">
+    <section class="main-section about-landing">
         <div class="main-wrapper">
             <div class="info-about">
                 <div class="title-wrapper">

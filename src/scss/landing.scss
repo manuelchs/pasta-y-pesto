@@ -36,8 +36,8 @@
                 .cursiva {
                     color: $yellow2;
                     position: absolute;
-                    top: 0;
-                    left: 0;
+                    top: -70px;
+                    left: -20px;
                     font-size: 6rem;
                 }
                 img {
@@ -56,9 +56,16 @@
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
+                margin-bottom: 1rem;
+                &:last-child {
+                    margin-bottom: 0;
+                }
                 img {
                     width: 40%;
                     height: auto;
+                    &:first-child {
+                        margin-right: 1rem;
+                    }
                 }
             }
         }
