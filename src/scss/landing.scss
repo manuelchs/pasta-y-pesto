@@ -12,10 +12,29 @@
 }
 
 .about-landing {
+    background-image: url('#/images/bg-about.png');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    position: relative;
+    &.main-section {
+        padding: 4rem 0 7rem;
+    }
+
+    .draw-about {
+        position: absolute;
+        right: 0;
+        top: -70px;
+        height: 330px;
+        width: auto;
+        z-index: 1;
+    }
+
     .main-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
         & > div {
             width: 50%
         }

@@ -15,6 +15,7 @@
         </div>
     </section>
     <section class="main-section about-landing">
+        <img src="#/images/draw-about.png" class="draw-about" alt="">
         <div class="main-wrapper">
             <div class="info-about">
                 <div class="title-wrapper">
