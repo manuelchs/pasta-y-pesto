@@ -137,6 +137,20 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+            color: white;
+            font-size: 6rem;
+            cursor: pointer;
+            opacity: 0.8;
+            transition: all .3s;
+            &:hover {
+                opacity: 1;
+            }
+
+        }
     }
 }
 

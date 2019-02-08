@@ -59,7 +59,9 @@
         </div>
     </section>
     <section class="landing-video">
-        <div class="video-container"></div>
+        <div class="video-container">
+            <i class="fas fa-play"></i>
+        </div>
     </section>
     <section class="especialidades-wrapper">
         <div class="titulo-especialidades">
