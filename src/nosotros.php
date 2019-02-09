@@ -15,9 +15,9 @@
     </section>
     <section class="main-section quienes-somos">
         <div class="main-wrapper">
-        <img src="#/images/pastabola.png" alt="">
-        <img src="#/images/ajo.png" alt="">
-        <img src="#/images/penne.png" alt="">
+        <img class="float-image pastabola" src="#/images/pastabola.png" alt="">
+        <img class="float-image ajo" src="#/images/ajo.png" alt="">
+        <img class="float-image penne" src="#/images/penne.png" alt="">
             <div class="title-wrapper">
                 <img src="#/images/onda-dark.png" alt="">
                 <div class="quienes-titulo">
@@ -43,12 +43,19 @@
     </section>
     <section class="main-section filosofia">
         <div class="main-wrapper">
+            <img class="float-image tomate" src="#/images/tomate-izq.png" alt="">
+            <img class="float-image romero" src="#/images/romero.png" alt="">
+            <img class="float-image camaron" src="#/images/camaron.png" alt="">
             <h3>filosofía</h3>
             <p>Buscamos siempre ofrecerle a nuestros clientes productos elaborados con ingredientes e insumos de primera calidad, preparando todo al momento y siempre a la vista de ellos. Teniendo siempre una amósfera agradable, visual y autditiva en todas nuestras sucursales con personal cordial atendiéndole.</p>
         </div>
     </section>
     <section class="main-section secreto">
         <div class="main-wrapper">
+            <img class="float-image codito" src="#/images/codito.png" alt="">
+            <img class="float-image albahaca" src="#/images/albahaca.png" alt="">
+            <img class="float-image especias" src="#/images/especias.png" alt="">
+            <img class="float-image monyo" src="#/images/moño.png" alt="">
             <div class="title-wrapper">
                 <h3 class="letter-sp">nuestro</h3>
                 <h2 class="cursiva">secreto</h2>
