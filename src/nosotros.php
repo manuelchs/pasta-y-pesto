@@ -15,6 +15,9 @@
     </section>
     <section class="main-section quienes-somos">
         <div class="main-wrapper">
+        <img src="#/images/pastabola.png" alt="">
+        <img src="#/images/ajo.png" alt="">
+        <img src="#/images/penne.png" alt="">
             <div class="title-wrapper">
                 <img src="#/images/onda-dark.png" alt="">
                 <div class="quienes-titulo">
