@@ -7,7 +7,7 @@
             <li><a href="/">inicio</a></li>
             <li><a href="nosotros">nosotros</a></li>
             <li><a href="menu">menu</a></li>
-            <li><a href="franquicias">franquicias</a></li>
+            <!-- <li><a href="franquicias">franquicias</a></li> -->
             <li><a href="contacto">contacto</a></li>
         </ul>
         <div id="logo" class="logo">

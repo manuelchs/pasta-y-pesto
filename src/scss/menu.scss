@@ -1,5 +1,6 @@
 .hero-menu {
     background-color: #777;
+    background-image: url('#/images/especialidades_03.png');
     .main-text {
         display: flex;
         flex-direction: column;
@@ -19,11 +20,12 @@
 
 .tit-menu {
     font-family: PoppinsBold;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .text-menu {
     margin-bottom: 2rem;
+    font-size: 0.8rem;
     &:last-child {
         margin-bottom: 0;
     }
@@ -39,14 +41,12 @@
     background-color: transparent;
     // background-color: #FAA;
     margin-top: -10rem;
-    box-shadow: $shadow;
-
     .back-menu {
         position: absolute;
         width: 100%;
         background-color: $beige1;
-        height: calc(100% - 16rem);
-        top: 10rem;
+        height: calc(100% - 14rem);
+        top: 8rem;
         left: 0;
         z-index: 0;
     }
@@ -59,6 +59,7 @@
         padding: 0 3rem;
         margin: auto;
         box-sizing: border-box;
+        box-shadow: $shadow;
 
         .options {
             display: flex;
@@ -66,7 +67,7 @@
             width: 100%;
             box-sizing: border-box;
             border-bottom: 2px solid $beige3;
-            padding: 2rem 0;
+            padding: 3rem 0 2rem;
             
             .option {
                 text-transform: uppercase;
@@ -83,6 +84,9 @@
             justify-content: space-between;
             align-items: stretch;
             padding: 3rem 0 6rem 0;
+            animation: menuAnimation .4s;
+            filter: blur(0px);
+
             .icon {
                 display: flex;
                 justify-content: center;
@@ -100,6 +104,41 @@
                 }
             }
         }
+    }
+}
+
+.footer-menu {
+    width: 100%;
+    height: calc(6rem + 200px);
+    background-color: $yellow2;
+    margin-top: -6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .menu-img-bg {
+        width: 33.3333333%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url('#/images/slider2.png');
+        &:first-child {
+            background-image: url('#/images/especialidades_02.png');
+        }
+        &:last-child {
+            background-image: url('#/images/especialidades_04.png');
+        }
+    }
+}
+
+@keyframes menuAnimation {
+    from {
+        opacity: 0;
+        filter: blur(5px);
+    }
+    to {
+        opacity: 1;
+        filter: blur(0px);
     }
 }
 

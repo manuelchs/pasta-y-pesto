@@ -3,6 +3,7 @@
 <head>
     <?php include("#/inc/head.php") ?>
     <title>Pasta & Pasto - Nuestro menú</title>
+    <script src="#/js/menu.js"></script>
 </head>
 <body>
     <section class="hero hero-menu">
@@ -17,13 +18,13 @@
         <div class="back-menu"></div>
         <div class="menu-container">
             <div class="options">
-                <div class="option">pastas</div>
-                <div class="option">pizzas</div>
-                <div class="option">pastos</div>
-                <div class="option">bebidas</div>
-                <div class="option">postres</div>
+                <div class="option menu-opt menu-opt-active" menu="pastas">pastas</div>
+                <div class="option menu-opt" menu="pizzas">pizzas</div>
+                <div class="option menu-opt" menu="pastos">pastos</div>
+                <div class="option menu-opt" menu="bebidas">bebidas</div>
+                <div class="option menu-opt" menu="postres">postres</div>
             </div>
-            <div class="menu-complete">
+            <div id="pastas" class="menu-complete">
                 <div class="icon">
                     <img src="#/images/icono-llevalo.png" alt="">
                 </div>
@@ -53,7 +54,32 @@
                     <button class="main-button dark">ordenar</button>
                 </div>
             </div>
+            <div id="pizzas" class="menu-complete no-display">
+                <div class="icon">
+                    <img src="#/images/icono-ingredientes.png" alt="">
+                </div>
+                <div class="menu">
+                    <h3 class="tit-menu">PIZZA 1</h3>
+                    <p class="text-menu">Nuestra propia receta boloñesa (pomodoro y carne molida)</p>
+                    <button class="main-button dark">ordenar</button>
+                </div>
+            </div>
+            <div id="bebidas" class="menu-complete no-display">
+                <div class="icon">
+                    <img src="#/images/icono-pet.png" alt="">
+                </div>
+                <div class="menu">
+                    <h3 class="tit-menu">bebidas</h3>
+                    <p class="text-menu">Nuestra propia receta boloñesa (pomodoro y carne molida)</p>
+                    <button class="main-button dark">ordenar</button>
+                </div>
+            </div>
         </div>
+    </section>
+    <section class="footer-menu">
+        <div class="menu-img-bg"></div>
+        <div class="menu-img-bg"></div>
+        <div class="menu-img-bg"></div>
     </section>
     <?php include("#/inc/footer.php") ?>
 </body>
