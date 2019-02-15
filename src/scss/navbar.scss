@@ -1,7 +1,11 @@
 nav {
     position: relative;
     z-index: 1;
-    padding-top: 3rem; 
+    padding-top: 3rem;
+
+    @media #{$ipad} {
+        padding-top: 1rem;
+    }
     
     .main-wrapper {
         display: flex;
@@ -78,6 +82,19 @@ nav {
         margin-left: 5rem;
         animation: fromLeft .3s;
 
+        @media #{$ipad} {
+            position: fixed;
+            top: 80px;
+            left: 0;
+            margin-left: 0;
+            // width: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            animation: fadeIn .3s;
+        }
+
         &.no-show {
             display: none;
         }
@@ -91,6 +108,10 @@ nav {
             a {
                 color: white;
                 text-transform: uppercase;
+                
+                @media #{$ipad} {
+                    color: $dark2;
+                }
                 &:hover {
                     text-decoration: underline;
                 }
@@ -105,6 +126,11 @@ nav {
         justify-content: center;
         align-items: center;
         transition: all .7s;
+
+        @media #{$ipad} {
+            width: auto;
+            margin-right: unset;
+        }
         &.no-show {
             display: none;
         }
@@ -126,6 +152,15 @@ nav {
     }
     to {
         margin-left: 5rem;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
         opacity: 1;
     }
 }

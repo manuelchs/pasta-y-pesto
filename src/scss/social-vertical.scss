@@ -9,6 +9,9 @@
     align-items: center;
     transform-origin: right bottom;
     transform: rotate(-90deg);
+    @media #{$ipad} {
+        display: none;
+    }
 
     p {
         display: block;

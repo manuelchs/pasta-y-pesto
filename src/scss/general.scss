@@ -39,6 +39,10 @@ a {
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
+    
+    @media #{$ipad} {
+        width: calc( 100% - 2rem );
+    }
 } 
 
 .hero {
@@ -46,6 +50,10 @@ a {
     height: 100vh;
     max-height: 600px;
     position: relative;
+    @media #{$ipad} {
+        height: auto;
+        min-height: 100vh;
+    }
     
     .overlay {
         position: absolute;
@@ -61,6 +69,9 @@ a {
         top: 60%;
         left: 50%;
         transform: translate(-50%,-50%);
+        @media #{$ipad} {
+            width: 100%;
+        }
     }
 
     h1 {
@@ -69,11 +80,18 @@ a {
         text-transform: uppercase;
         color: white;
         text-align: center;
+        @media #{$ipad} {
+            font-size: 2rem;
+        }
     }
 
     h2 {
         font-size: 4rem;
         color: $yellow1;
+        @media #{$ipad} {
+            line-height: 2.5rem;
+            font-size: 3rem;
+        }
     }
 }
 

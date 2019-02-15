@@ -5,6 +5,9 @@
     background-repeat: no-repeat;
     .cursiva {
         margin-top: -18px;
+        @media #{$ipad} {
+            margin-top: -7px;
+        }
     }
     button {
         margin: 3rem auto 0;
@@ -29,6 +32,10 @@
         height: 330px;
         width: auto;
         z-index: 1;
+
+        @media #{$ipad} {
+            display: none;
+        }
     }
 
     .main-wrapper {
@@ -36,8 +43,15 @@
         justify-content: center;
         align-items: center;
         position: relative;
+
+        @media #{$ipad} {
+            flex-direction: column;
+        }
         & > div {
-            width: 50%
+            width: 50%;
+            @media #{$ipad} {
+                width: 100%;
+            }
         }
 
         .info-about {
