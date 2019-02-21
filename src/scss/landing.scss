@@ -228,6 +228,9 @@
                 font-size: 3rem;
                 text-transform: uppercase;
                 margin-left: -118px;
+                @media #{$ipad} {
+                    font-size: 2rem;
+                }
             }
             .cursiva {
                 font-size: 6.25rem;
@@ -235,12 +238,21 @@
                 margin-right: -155px;
                 color: $beige3;
                 margin-right: -33px;
+
+                @media #{$ipad} {
+                    font-size: 4rem;
+                    margin-top: -32px;
+                    margin-right: 7px;
+                }
             }
         }
         .adorno-titulo {
             position: absolute;
             height: 154px;
             width: auto;
+            @media #{$ipad} {
+                display: none;
+            }
             &.small {
                 height: 70px;
                 width: auto;
