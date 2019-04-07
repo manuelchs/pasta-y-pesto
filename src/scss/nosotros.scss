@@ -1,5 +1,5 @@
 .hero-nosotros {
-    background-color: $beige1;
+    background-image: url('#/images/nosotros-banner.png');
     .cursiva {
         color: $beige2;
         margin: 0;
@@ -92,8 +92,12 @@
                     margin-right: 1rem;
                     width: 100%;
                     height: 100%;
+                    background-image: url('#/images/nosotros-1.png');
+                    background-size: cover;
+                    background-position: center;
                     &:last-child {
                         margin-right: 0;
+                        background-image: url('#/images/nosotros-2.png');
                     }
                 }
             }
@@ -226,7 +230,6 @@
     }
     .img-artesanal {
         width: 100%;
-        height: 300px;
-        background-color: #533;
+        height: auto;
     }
 }

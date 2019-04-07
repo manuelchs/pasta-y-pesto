@@ -8,6 +8,12 @@
     }
 }
 
+html, body {
+    @media #{$ipad} {
+        overflow-x: hidden;
+    }
+}
+
 body {
     font-family: PoppinsRegular;
     font-size: $fontBase;
@@ -50,6 +56,9 @@ a {
     height: 100vh;
     max-height: 600px;
     position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     @media #{$ipad} {
         height: auto;
         min-height: 100vh;

@@ -64,7 +64,7 @@
     </section>
     <section class="artesanal">
         <h2>pasta artesanal</h2>
-        <div class="img-artesanal"></div>
+        <img src="#/images/nosotros-3.png" class="img-artesanal">
     </section>
     <?php include("#/inc/footer.php") ?>
 </body>
