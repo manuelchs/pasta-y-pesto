@@ -118,3 +118,13 @@ a {
 .no-display {
     display: none !important;
 }
+
+.main-title {
+    font-family: Questrial;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    @media #{$ipad} {
+        font-size: 1rem;
+    }
+}
