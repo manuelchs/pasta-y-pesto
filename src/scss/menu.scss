@@ -9,6 +9,10 @@
         h1 {
             font-size: 3rem;
             margin-left: -75px;
+            @media #{$ipad} {
+                margin-top: -70px;
+                margin-bottom: 50px;
+            }
         }
         h2 {
             font-size: 7rem;
@@ -53,13 +57,17 @@
     .menu-container {
         z-index: 1;
         position: relative;
-        width: 100%;
+        width: calc(100% - 2rem);
         max-width: 900px;
         background-color: white;
         padding: 0 3rem;
         margin: auto;
         box-sizing: border-box;
         box-shadow: $shadow;
+
+        @media #{$ipad} {
+            padding: 0 1rem;
+        }
 
         .options {
             display: flex;
@@ -68,10 +76,19 @@
             box-sizing: border-box;
             border-bottom: 2px solid $beige3;
             padding: 3rem 0 2rem;
+            @media #{$ipad} {
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
             
             .option {
                 text-transform: uppercase;
                 cursor: pointer;
+
+                @media #{$ipad} {
+                    width: 33%;
+                    text-align: center;
+                }
                 &:hover {
                     color: $beige2;
                 }
@@ -87,11 +104,18 @@
             animation: menuAnimation .4s;
             filter: blur(0px);
 
+            @media #{$ipad} {
+                flex-direction: column;
+            }
+
             .icon {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 width: calc( 100px + 10rem);
+                @media #{$ipad} {
+                    width: 100%;
+                }
                 img {
                     height: auto;
                     width: 100px;
@@ -99,8 +123,14 @@
             }
             .menu {
                 width: calc(100% - 100px - 10rem);
+                @media #{$ipad} {
+                    width: 100%;
+                }
                 button {
                     display: block;
+                    @media #{$ipad} {
+                        margin: auto;
+                    }
                 }
             }
         }

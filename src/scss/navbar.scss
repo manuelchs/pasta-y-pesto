@@ -87,11 +87,10 @@ nav {
             top: 80px;
             left: 0;
             margin-left: 0;
-            // width: 100%;
+            width: 100%;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: white;
             animation: fadeIn .3s;
         }
 
@@ -102,6 +101,9 @@ nav {
         li {
             list-style: none;
             margin-right: 3rem;
+            @media #{$ipad} {
+                margin-right: 0;
+            }
             &:last-child {
                 margin-right: 0;
             } 
@@ -110,7 +112,6 @@ nav {
                 text-transform: uppercase;
                 
                 @media #{$ipad} {
-                    color: $dark2;
                 }
                 &:hover {
                     text-decoration: underline;
