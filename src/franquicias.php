@@ -13,7 +13,7 @@
             <h2 class="cursiva">franquicias</h2>
         </div>
     </section>
-    <section class="franquicias">
+    <section class="modelo-franquicias">
         <div class="title-wrapper">
             <img src="#/images/onda-dark.png" alt="">
             <div class="quienes-titulo">
