@@ -61,7 +61,11 @@
                     </label>
                 </div>
             </div>
-            
+        </div>
+    </section>
+    <section class="franquicia-formulario">
+        <div class="main-wrapper">
+        
         </div>
     </section>
     
