@@ -2,7 +2,7 @@
     background-image: url('#/images/franquicias-banner.png');
 }
 
-.franquicias {
+.modelo-franquicias {
     padding: 6rem 0;
     .title-wrapper {
         margin: auto;
@@ -64,6 +64,11 @@
                     box-sizing: border-box;
                     height: 100%;
                     transition: all .3s;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    cursor: pointer;
                     p {
                         text-align: center;
                         &:first-child {
