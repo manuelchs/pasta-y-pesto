@@ -86,3 +86,68 @@
         }
     }
 }
+
+.franquicia-formulario {
+    margin: 4rem 0;
+    .main-wrapper {
+        max-width: 600px;
+        & > p {
+            text-align: center;
+        }
+    }
+}
+
+form.main-form {
+    width: 100%;
+    h2 {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-family: PoppinsBold;
+        color: $beige3;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    input, textarea {
+        box-sizing: border-box;
+        border: 1px solid $dark2;
+        padding: 0.5rem 1rem;
+    }
+
+    textarea {
+        height: 100px;
+        resize: none;
+    }
+
+    .double-input {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+        @media #{$ipad} {
+            flex-direction: column;
+        }
+        input {
+            width: calc(50% - 0.5rem);
+            @media #{$ipad} {
+                width: 100%;
+                &:first-child {
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+
+    .one-input {
+        width: 100%;
+        margin-bottom: 1rem;
+        input, textarea {
+            width: 100%;
+        }
+    }
+    button {
+        margin: 0 auto;
+    }
+}

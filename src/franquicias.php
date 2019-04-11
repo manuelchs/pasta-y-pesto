@@ -65,7 +65,104 @@
     </section>
     <section class="franquicia-formulario">
         <div class="main-wrapper">
-        
+            <p>Agradecemos su interés por nuestra franquicia, para continuar con el proceso, le requerimos el llenado del siguiente formulario.</p>
+            <form class="main-form" action="">
+                <h2>Datos generales</h2>
+                <div class="double-input">
+                    <input type="text" placeholder="Nombre *">
+                    <input type="text" placeholder="Apellidos *">
+                </div>
+                <div class="one-input">
+                    <input type="text" placeholder="Dirección *">
+                </div>
+                <div class="double-input">
+                    <input type="text" placeholder="Número exterior *">
+                    <input type="text" placeholder="Número interior *">
+                </div>
+                <div class="double-input">
+                    <input type="text" placeholder="Colonia *">
+                    <input type="text" placeholder="Código postal *">
+                </div>
+                <div class="double-input">
+                    <input type="text" placeholder="Delegación *">
+                    <input type="text" placeholder="Ciudad *">
+                </div>
+                <div class="double-input">
+                    <input type="text" placeholder="Estado *">
+                    <input type="text" placeholder="Teléfono *">
+                </div>
+                <div class="one-input">
+                    <input type="text" placeholder="Correo Electrónico *">
+                </div>
+                <div class="double-input">
+                    <input type="text" placeholder="Fecha de nacimiento *">
+                    <input type="text" placeholder="Estado Civil">
+                </div>
+                <div class="one-input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Ciudad (zona y/o colonia) donde pretender ubicar la franquicia">Ciudad (zona y/o colonia) donde pretender ubicar la franquicia</textarea>
+                </div>
+                <h2>nivel académico</h2>
+                <div class="double-input">
+                    <input type="text" placeholder="Nivel de estudios *">
+                    <input type="text" placeholder="Profesión *">
+                </div>
+                <div class="one-input">
+                    <input type="text" placeholder="Universidad o institución *">
+                </div>
+                <div class="one-input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Otros">Otros</textarea>
+                </div>
+                <h2>ocupación actual o anterior</h2>
+                <div class="one-input">
+                    <input type="text" placeholder="Nombre de la empresa o negocio *">
+                </div>
+                <div class="double-input">
+                    <input type="text" placeholder="Giro de la empresa o negocio">
+                    <input type="text" placeholder="Puesto o función *">
+                </div>
+                <div class="double-input">
+                    <input type="text" placeholder="Antigüedad en la empresa *">
+                    <input type="text" placeholder="Teléfono de la empresa o negocio *">
+                </div>
+                <h2>experiencia empresarial</h2>
+                <div class="one-input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="¿Ha tenido experiencia en negocios propios? Explique."></textarea>
+                </div>
+                <div class="one-input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="¿Ha tenido experiencia  negocios del giro alimentos y/o bebidas? Explique."></textarea>
+                </div>
+                <div class="one-input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="¿Ha tenido experiencia como propietario de alguna franquicia? En caso afirmativo, mencione las marcas:"></textarea>
+                </div>
+                <h2>acerca de la franquicia</h2>
+                <div class="one-input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="¿Cuál es el principal motivo por el que desea invertir en una franquicia?"></textarea>
+                </div>
+                <div class="one-input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="¿Cuál es la principal razón por la que desea adquirir una franquicia PASTA & PASTO?"></textarea>
+                </div>
+                <div class="one-input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="¿Cómo se enteró de nuestra franquicia?"></textarea>
+                </div>
+                <div class="one-input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="¿A cuánto asciende su presupuesto para invertir en una franquicia PASTA & PASTO y cuándo podría disponer de este recurso?"></textarea>
+                </div>
+                <div class="one-input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="¿Quién operará la franquicia? ¿Cuánto tiempo le inviertirá usted al negocio?"></textarea>
+                </div>
+                <div class="one-input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="¿Cuenta ya con la posesión de algún local?"></textarea>
+                </div>
+                <div class="one-input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Si su respuesta a la pregunta anterior fue afirmativa, indique la superficie aproximada del local, si es propio o rentado y el tipo de zona en el que se encuentra ubicado:"></textarea>
+                </div>
+                <p>El solicitante manifiesta que toda la información aquí presentada con motivo e su candidatura para obtener la franquicia PASTA & PASTO es correcta y verdadera:</p>
+                <div class="double-input">
+                    <input type="text" placeholder="Lugar y fecha *">
+                    <input type="text" placeholder="CURP">
+                </div>
+                <button class="main-button dark">enviar</button>
+            </form>
         </div>
     </section>
     
