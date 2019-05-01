@@ -7,6 +7,7 @@
     <script src="#/js/slider-sucursales.js"></script>
 </head>
 <body>
+    <?php include("#/inc/admin_navbar.php") ?>
     <section class="hero hero-home">
         <?php include("#/inc/navbar.php"); ?>
         <div class="overlay"></div>
@@ -15,11 +16,17 @@
             <h2 class="cursiva">fresca como lechuga</h2>
             <button class="main-button white">¡yo quiero!</button>
         </div>
+        <div class="admin-item admin-edit white bottom right">
+            <i class="fas fa-pen"></i><span>Editar fondo</span>
+        </div>
     </section>
     <section class="main-section about-landing">
         <img src="#/images/draw-about.png" class="draw-about" alt="">
         <div class="main-wrapper">
             <div class="info-about">
+                <div class="admin-item admin-edit bottom right">
+                    <i class="fas fa-pen"></i><span>Editar texto</span>
+                </div>
                 <div class="title-wrapper">
                     <h2 class="letter-sp">acerca de<br>nosotros</h2>
                     <img src="#/images/onda-dark.png" alt="">

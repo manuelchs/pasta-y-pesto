@@ -1,0 +1,40 @@
+.admin-navbar {
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+
+.admin-edit {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &.white {
+        background-color: white;
+        color: black;
+    }
+    span {
+        font-size: .8rem;
+        margin-left: 0.5rem;
+    }
+
+    &.bottom {
+        bottom: 1rem;
+    }
+
+    &.left {
+        left: 1rem;
+    }
+
+    &.right {
+        right: 1rem;
+    }
+
+    &.top {
+        top: 1rem;
+    }
+
+}
