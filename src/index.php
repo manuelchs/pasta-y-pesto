@@ -7,7 +7,6 @@
     <script src="#/js/slider-sucursales.js"></script>
 </head>
 <body>
-    <?php include("#/inc/admin_navbar.php") ?>
     <section class="hero hero-home">
         <?php include("#/inc/navbar.php"); ?>
         <div class="overlay"></div>
